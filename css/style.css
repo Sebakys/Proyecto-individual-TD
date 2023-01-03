@@ -1,0 +1,9 @@
+h1, h2{
+    text-align: center;
+    color: aliceblue;
+}
+body{
+    background-image: url(../img/Fondobosque.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}

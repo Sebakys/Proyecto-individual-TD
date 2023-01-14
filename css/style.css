@@ -1,9 +1,38 @@
-h1, h2{
-    text-align: center;
-    color: aliceblue;
+*{
+  border: red solid 1px;
 }
 body{
-    background-image: url(../img/Fondobosque.png);
+    font-family:monospace;
+    color: white;
+    background-image:url(../img/fondo-biodiversidad.jpg);
     background-repeat: no-repeat;
     background-size:cover;
+}
+
+.atencion {
+  display: flex;
+  justify-content:center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.logo{
+  width: 5%;
+}
+#main-menu .nav-bar {
+   background-color: rgba(255, 221, 1, 0.208);
+  }
+#main-menu .nav-bar li { display:inline; padding:0 100px; }
+
+#main-menu .nav-bar li a {
+  text-decoration: none;
+  padding: 10px;
+  text-transform:uppercase;
+  color: white;
+}
+
+.botonDar{
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
 }

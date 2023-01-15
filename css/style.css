@@ -1,38 +1,66 @@
 *{
   border: red solid 1px;
 }
+html{
+  box-sizing: border-box;
+}
 body{
     font-family:monospace;
     color: white;
-    background-image:url(../img/fondo-biodiversidad.jpg);
+    margin-bottom: 0;
+  }
+  #main-menu .nav-bar {
+     background-color: rgb(19, 37, 1);
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     padding:10px;
+    } 
+  
+  #main-menu .nav-bar li a {
+    text-decoration: none;
+    text-transform:uppercase;
+    color: white;
+  }
+
+  .atencion{
+    background-image: url(/img/fondo-biodiversidad.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-}
+  }
+      
+  .atencion {
+    height: 600px;;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    flex-direction: column;
+  }
 
-.atencion {
-  display: flex;
-  justify-content:center;
-  text-align: center;
-  flex-direction: column;
-}
 
 .logo{
-  width: 5%;
-}
-#main-menu .nav-bar {
-   background-color: rgba(255, 221, 1, 0.208);
-  }
-#main-menu .nav-bar li { display:inline; padding:0 100px; }
-
-#main-menu .nav-bar li a {
-  text-decoration: none;
-  padding: 10px;
-  text-transform:uppercase;
-  color: white;
+  width: 50px;
 }
 
 .botonDar{
   background-color: transparent;
   color: white;
   font-size: 20px;
+}
+
+.deforestacion{
+  background-image: url(/img/deforestacion2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height: 600px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+footer{
+  background-color: black;
+
 }
